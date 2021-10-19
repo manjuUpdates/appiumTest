@@ -31,6 +31,20 @@ public class BaseClass {
 	//Test3
 	
 	// test4
+	public void test()
+	{
+		System.out.println("test1");
+	}
+	
+	public void test2()
+	{
+		System.out.println("test2");
+	}
+	
+	public void test3()
+	{
+		System.out.println("test23");
+	}
 	
 	@BeforeSuite
 	public void appiumStartServer(){

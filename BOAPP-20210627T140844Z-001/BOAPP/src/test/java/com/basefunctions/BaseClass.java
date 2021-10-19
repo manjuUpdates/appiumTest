@@ -26,6 +26,12 @@ public class BaseClass {
 	public static String appiumjs="C:\\Program Files (x86)\\Appium\\node_modules\\appium\\bin\\appium.js";
 	public AppiumDriverLocalService server;
 	
+	//Test1
+	//Test2
+	//Test3
+	
+	// test4
+	
 	@BeforeSuite
 	public void appiumStartServer(){
 		server=AppiumDriverLocalService.buildService(new AppiumServiceBuilder().usingPort(4723).usingDriverExecutable(new File(node)).withAppiumJS(new File(appiumjs)));
